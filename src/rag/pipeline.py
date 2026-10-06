@@ -2,8 +2,8 @@ from src.rag.chunking import split_text
 from src.rag.embeddings import get_embeddings
 from src.rag.vector_store import create_vector_store
 from src.rag.retriever import create_retriever
-from src.rag.llm import get_llm
 from src.rag.prompt import get_rag_prompt
+from src.rag.llm import get_llm
 from src.rag.chain import create_rag_chain
 
 def build_retrieval_pipeline(document_text):

@@ -9,3 +9,7 @@ langchain-groq
 langchain-ollama
 langchain-text-splitters
 faiss-cpu
+sqlalchemy
+pymysql
+pandas
+plotly

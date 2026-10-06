@@ -19,6 +19,14 @@ If the answer cannot be found in the context, say:
 Do not use outside knowledge.
 Keep the answer clear and concise.
 
+Important rules:
+1. Do not create ASCII charts.
+2. Do not create text-based charts or visualizations.
+3. If the user asks for a chart, answer the question normally
+   using information from the document.
+4. The application will generate the visualization separately.
+5. Do not invent numerical values.
+
 Context:
 {context}
 
